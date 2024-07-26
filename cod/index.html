@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="owl.css">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mountscript</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="fixed top-0 left-0 right-0 z-50 m-2 p-3 md:flex md:items-center justify-between border bg-white shadow-md">
+          <div class="flex justify-between items-center">
+            <span class="text-xl font-[inika] font-bold cursor-pointer">
+              Mount Script
+              <img class="h-10 inline" src="/Mountscript/img/images.png" alt="">
+            </span>
+      
+            <span class="text-3xl cursor-pointer mx-2 md:hidden block" onclick="Menu(this)">
+              <ion-icon name="menu"></ion-icon>
+            </span>
+          </div>
+      
+          <ul class="md:flex md:items-center z-[100] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in-duration-500 font-[jejugothic]">
+            <li class="mx-4 my-6 md:my-0"><a class="hover:underline" href="#">Home</a></li>
+            <li class="mx-4 my-6 md:my-0"><a class="hover:underline" href="/Mountscript/About us/about.html">About</a></li>
+            <li class="mx-4 my-6 md:my-0"><a class="hover:underline" href="/Mountscript/Contact us/contact.html">Contact us</a></li>
+            <li class="mx-4 my-6 md:my-0"><a class="hover:underline" href="/Mountscript/Catagories/catagory.html">Catagories</a></li>
+          </ul>
+      
+          <div class="flex items-center">
+            <input class="bg-gray-300 rounded-full h-8 placeholder-white font-[Itim] mx-4" type="search" placeholder="         search for anything">
+            <i class="fa-solid fa-globe fa-xl cursor-pointer" style="color: #929292;"></i>
+          </div>
+        </nav>
+      </div>
+
+    <!-- Set up your HTML -->
+    <div id="slider1" class="owl-carousel mt-36">
+        <div class="flex flex-col md:flex-row justify-evenly">
+          <div class="px-6 z-10 h-28 border mb-4 md:mb-0">
+            <h4 class="font-[Inria Sans] font-bold">Learning that gets you</h4>
+            <p class="font-[Inria Sans]">Skills for your present (and your future). Get started with us.</p>
+            <button class="text-white bg-black text-sm w-40 hover:bg-violet-900">Available Courses</button>
+          </div>
+          <div class="h-1/2 w-full md:w-1/2">
+            <img class="w-full h-full object-cover" src="/Mountscript/img/businesswoman-executive-professional-success-concept (1).jpg" alt="">
+          </div>
+        </div>
+        <div class="flex flex-col-reverse md:flex-row justify-evenly">
+          <div class="h-1/2 w-full md:w-1/2">
+            <img class="w-full h-full object-cover" src="/Mountscript/img/1632922078830.jpeg" alt="">
+          </div>
+          <div class="px-6 z-10 h-28 border w-auto mb-4 md:mb-0">
+            <h4 class="font-[Inria Sans] font-bold">Learning that gets you</h4>
+            <p class="font-[Inria Sans]">Skills for your present (and your future). Get started with us.</p>
+            <button class="text-white bg-black text-sm w-40 hover:bg-violet-900">Available Courses</button>
+          </div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-evenly">
+          <div class="h-1/2 w-full md:w-1/2">
+            <img class="w-full h-full object-cover" src="/Mountscript/img/learning-team-04-scaled-e1626247492349.jpeg" alt="">
+          </div>
+          <div class="px-6 z-10 h-28 border mb-4 md:mb-0">
+            <h4 class="font-[Inria Sans] font-bold">Learning that gets you</h4>
+            <p class="font-[Inria Sans]">Skills for your present (and your future). Get started with us.</p>
+            <button class="text-white bg-black text-sm w-40 hover:bg-violet-900">Available Courses</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="sponsers" class="container flex justify-around">
+        <p class="font-[Inria Sans] text-center md:text-left">
+          Trusted by over 100 companies and millions of learners around the world
+        </p>
+      </div>
+      
+      <div class="container flex flex-wrap justify-around items-center mx-2">
+        <img class="h-12 m-4 md:m-0" src="/Mountscript/img/companies/ethio_telecom.svg" alt="">
+        <img class="h-24 m-4 md:m-0" src="/Mountscript/img/companies/Ethiopian_Airlines-Logo.wine.png" alt="">
+        <img class="h-24 m-4 md:m-0" src="/Mountscript/img/companies/SAF-MAIN-LOGO.png" alt="">
+        <img class="h-12 m-4 md:m-0" src="/Mountscript/img/companies/logo2.png" alt="">
+        <img class="h-24 m-4 md:m-0" src="/Mountscript/img/companies/Image-21-03-2023-at-10.54.jpeg" alt="">
+      </div>
+
+ <div id="courses" class="border mx-2">
+    <div id="intro" class="">
+        <h4 class="font-[Inria Sans] font-bold text-xl ml-2">A broad selection of courses</h4>
+        <p class="font-[Inria Sans] ml-2">Choose from over 220,000 online video courses with new additions published every month</p>
+    </div>
+    <h1 class="font-[Inria Sans] font-bold text-2xl ml-2 my-3" >Most Popular Courses</h1>
+
+    <div class="flex flex-wrap justify-center my-3 max-h-full">
+        <div class="bg-white shadow-md rounded-lg m-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto">
+          <img class="rounded-t-lg w-full h-48 object-cover" src="/Mountscript/img/companies/aws_logo_smile_1200x630.png" alt="">
+          <div class="p-4">
+            <h4 class="font-[Inria Sans] font-bold text-base text-2xl">Cloud Computing</h4>
+            <p class="font-[Inria Sans] text-gray-600 mb-4"> cloud computing is the delivery of computing services
+                including servers, storage, databases, networking, 
+                software, analytics, and intelligence—over the internet</p>
+            <button class="text-white bg-black text-xs px-3 py-2 rounded hover:bg-violet-900">Enroll Now</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg m-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto">
+          <img class="rounded-t-lg w-full h-48 object-cover" src="/Mountscript/img/companies/mainnews2012_x1.jpeg" alt="">
+          <div class="p-4">
+            <h4 class="font-[Inria Sans] font-bold text-base text-2xl">Artificial intelligence</h4>
+            <p class="font-[Inria Sans] text-gray-600 mb-4">Artificial intelligence, in its broadest sense, is
+                intelligence exhibited by machines, particularly
+                computer systems.</p>
+            <button class="text-white bg-black text-xs px-3 py-2 rounded hover:bg-violet-900">Enroll Now</button>
+          </div>
+        </div>
+        <div class="bg-white shadow-md rounded-lg m-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto">
+          <img class="rounded-t-lg w-full h-48 object-cover" src="/Mountscript/img/companies/software-developer-gef18a0b18_1280.jpeg" alt="">
+          <div class="p-4">
+            <h4 class="font-[Inria Sans] font-bold text-base text-2xl">Front-end development</h4>
+            <p class="font-[Inria Sans] text-gray-600 mb-4">Front-end web development is the development of the
+                graphical user interface of a website through the use 
+                of HTML, CSS, and JavaScript so users can view and 
+                                                                    interact with that website.</p>
+            <button class="text-white bg-black text-xs px-3 py-2 rounded hover:bg-violet-900">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+ </div>
+
+
+
+
+
+      <div id="courses" class="border mx-2">
+        <h1 class="font-[Inria Sans] font-bold text-2xl ml-2 my-3" >Top Catagories</h1>
+    
+        <div class="flex flex-wrap justify-center my-3 max-h-full">
+            <div class="bg-white shadow-md rounded-lg m-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto">
+              <img class="rounded-t-lg w-full h-48 object-cover" src="/Mountscript/img/large_hero_d56d20b4-1072-48c0-b832-deecf6641d49.jpeg" alt="">
+            </div>
+            <div class="bg-white shadow-md rounded-lg m-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto">
+              <img class="rounded-t-lg w-full h-48 object-cover" src="/Mountscript/img/flat-design-background-with-abstract-pattern-free-vector.jpeg" alt="">
+            </div>
+            <div class="bg-white shadow-md rounded-lg m-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto">
+              <img class="rounded-t-lg w-full h-48 object-cover" src="/Mountscript/img/c7e69462b4690ba7ad343472c8c5cc9e.jpeg" alt="">
+            </div>
+        </div>
+
+        <div class="flex flex-wrap justify-center my-3 max-h-full">
+            <div class="bg-white shadow-md rounded-lg m-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto">
+              <img class="rounded-t-lg w-full h-48 object-cover" src="/Mountscript/img/download.jpeg" alt="">
+            </div>
+            <div class="bg-white shadow-md rounded-lg m-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto">
+              <img class="rounded-t-lg w-full h-48 object-cover" src="/Mountscript/img/pexels-fonok-403495.jpeg" alt="">
+            </div>
+            <div class="bg-white shadow-md rounded-lg m-4 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 h-auto">
+              <img class="rounded-t-lg w-full h-48 object-cover" src="/Mountscript/img/companies/software-developer-gef18a0b18_1280.jpeg" alt="">
+            </div>
+        </div>
+
+     </div>
+
+
+     <div id="features" class="border mx-2 bg-slate-100 my-3">
+  <h1 class="font-[Inria Sans] font-bold text-2xl ml-2 my-3">Featured by Categories</h1>
+  <ul class="flex justify-evenly flex-wrap">
+    <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 my-4 ">
+      <span class="font-[Inria Sans] font-bold text-xl ml-2 my-3">Development</span>
+      <ul class="block items-center ml-5">
+        <li class="my-4">
+          <a href=""><span style="color:#750FA5;">Python</span></a>
+          <hr style="color:#750FA5;" class="w-16 my-2">
+          <p class="font-[Inria Sans]" style="color: #504E4E;">3,994 learners</p>
+        </li>
+        <li class="my-4">
+          <a href=""><span style="color:#750FA5;">Web Development</span></a>
+          <hr style="color:#750FA5;" class="w-36 my-2">
+          <p class="font-[Inria Sans]" style="color: #504E4E;">3,994 learners</p>
+        </li>
+        <li class="my-4">
+          <a href=""><span style="color:#750FA5;">Machine Learning</span></a>
+          <hr style="color:#750FA5;" class="w-36 my-2">
+          <p class="font-[Inria Sans]" style="color: #504E4E;">3,994 learners</p>
+        </li>
+      </ul>
+    </li>
+    <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 my-4">
+      <span class="font-[Inria Sans] font-bold text-xl ml-2 my-3">Business</span>
+      <ul class="block ml-2">
+        <li class="my-4">
+          <a href=""><span style="color:#750FA5;">Financial Analysis</span></a>
+          <hr style="color:#750FA5;" class="w-16 my-2">
+          <p class="font-[Inria Sans]" style="color: #504E4E;">1,794 learners</p>
+        </li>
+        <li class="my-4">
+          <a href=""><span style="color:#750FA5;">SQL</span></a>
+          <hr style="color:#750FA5;" class="w-36 my-2">
+          <p class="font-[Inria Sans]" style="color: #504E4E;">3,615 learners</p>
+        </li>
+        <li class="my-4">
+          <a href=""><span style="color:#750FA5;">PMP</span></a>
+          <hr style="color:#750FA5;" class="w-16 my-2">
+          <p class="font-[Inria Sans]" style="color: #504E4E;">215 learners</p>
+        </li>
+      </ul>
+    </li>
+    <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 my-4">
+      <span class="font-[Inria Sans] font-bold text-xl ml-2 my-3">IT and Software</span>
+      <ul class="block ml-2">
+        <li class="my-4">
+          <a href=""><span style="color:#750FA5;">Amazon AWS</span></a>
+          <hr style="color:#750FA5;" class="w-36 my-2">
+          <p class="font-[Inria Sans]" style="color: #504E4E;">4,994 learners</p>
+        </li>
+        <li class="my-4">
+          <a href=""><span style="color:#750FA5;">Ethical Hacking</span></a>
+          <hr style="color:#750FA5;" class="w-36 my-2">
+          <p class="font-[Inria Sans]" style="color: #504E4E;">15,615 learners</p>
+        </li>
+        <li class="my-4">
+          <a href=""><span style="color:#750FA5;">Cyber Security</span></a>
+          <hr style="color:#750FA5;" class="w-36 my-2">
+          <p class="font-[Inria Sans]" style="color: #504E4E;">2,395 learners</p>
+        </li>
+      </ul>
+    </li>
+    <li class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 my-4">
+      <span class="font-[Inria Sans] font-bold text-xl ml-2 my-3">Designing</span>
+      <ul class="block ml-2">
+        <li class="my-4">
+          <a href=""><span style="color:#750FA5;">Photoshop</span></a>
+          <hr style="color:#750FA5;" class="w-36 my-2">
+          <p class="font-[Inria Sans]" style="color: #504E4E;">3,994 learners</p>
+        </li>
+        <li class="my-4">
+          <a href=""><span style="color:#750FA5;">Graphic Designing</span></a>
+          <hr style="color:#750FA5;" class="w-36 my-2">
+          <p class="font-[Inria Sans]" style="color: #504E4E;">5,615 learners</p>
+        </li>
+        <li class="my-4">
+          <a href=""><span style="color:#750FA5;">Drawing</span></a>
+          <hr style="color:#750FA5;" class="w-36 my-2">
+          <p class="font-[Inria Sans]" style="color: #504E4E;">1,215 learners</p>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="mt-10 bg-white shadow-lg">
+  <h1 class="font-[Inria Sans] font-bold text-2xl ml-2 my-3">About Us</h1>
+  <div id="courses" class="flex flex-col md:flex-row lg:flex-row justify-between border mx-2 my-6">
+    <div class="my-auto w-full md:w-1/2 lg:w-1/2 h-auto ml-7">
+      <p>We help organizations of all types and sizes prepare for the path ahead — <br> wherever it leads. Our curated collection of business and technical courses help companies, governments, and nonprofits go further by placing learning at the <br> center of their strategies.</p>
+    </div>
+    <div class="flex flex-wrap justify-center my-3 max-h-full w-full md:w-1/2 lg:w-1/2">
+      <div class="bg-white shadow-md rounded-lg m-4 w-full sm:w-1/2 md:w-full lg:w-full h-auto">
+        <div class="w-full h-56 rounded-t-lg overflow-hidden">
+          <img class="w-full h-full object-cover object-center" src="/Mountscript/img/IMG_7848.JPEG" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+     <div id="Testimonies" class="border mx-2 bg-slate-50 mt-10">
+        <div>
+            <h1 class="font-[Inria Sans] font-bold text-2xl ml-2 my-3">Testimonies</h1>
+            <div id="slider3" class="owl-carousel my-16">
+                <div class="item bg-white shadow-md">
+                    <div id="courses" class="flex flex-col md:flex-row lg:flex-row justify-between border mx-2 py-6 ">
+                        <div class="flex items-center mb-4 md:mb-0 lg:mb-0">
+                            <div class="bg-white shadow-md rounded-full mr-4 w-20 h-20">
+                                <img class="rounded-full w-full h-full object-cover" src="/Mountscript/img/companies/aws_logo_smile_1200x630.png" alt="">
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-gray-800 text-lg">John Doe</h3>
+                                <p class="text-gray-600 text-sm">CEO, ABC Company</p>
+                            </div>
+                        </div>
+                        <div class="my-auto w-full md:w-3/4 lg:w-3/4 h-auto ml-7">
+                            <p>We help organizations of all types and sizes prepare for the path ahead — wherever it leads. Our curated collection of business and technical courses help companies, governments, and nonprofits go further by placing learning at the center of their strategies. <a href="#" class="text-purple-500">Read more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     
+        
+    
+
+     <footer class="mt-10">
+        <div id="footer" class="border mx-2 h-auto py-8" style="background-color:#211A2D;">
+            <ul class="flex flex-wrap text-white">
+                <li class="mx-16 w-1/2 sm:w-1/3 mb-8">
+                    <ul class="block items-center list-disc">
+                        <li class="font-[Didact Gothic]">Mount script Business</li>
+                        <li class="font-[Didact Gothic]">Get the app</li>
+                        <li class="font-[Didact Gothic]">About us</li>
+                        <li class="font-[Didact Gothic]">Contact us</li>
+                    </ul>
+                </li>
+                <li class="mx-16 w-1/2 sm:w-1/3 mb-8">
+                    <ul class="block items-center list-disc">
+                        <li class="font-[Didact Gothic]">Careers</li>
+                        <li class="font-[Didact Gothic]">Blog</li>
+                        <li class="font-[Didact Gothic]">Help and Support</li>
+                        <li class="font-[Didact Gothic]">Affiliate</li>
+                        <li class="font-[Didact Gothic]">Investors</li>
+                    </ul>
+                </li>
+                <li class="mx-16 w-full sm:w-1/3 mb-8">
+                    <ul class="block items-center list-disc">
+                        <li class="font-[Didact Gothic]">Terms</li>
+                        <li class="font-[Didact Gothic]">Privacy policy</li>
+                        <li class="font-[Didact Gothic]">Sitemap</li>
+                        <li class="font-[Didact Gothic]">Accessibility statement</li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="flex justify-between items-center ml-3 mt-8">
+                <span class="text-xl font-[inika] font-bold cursor-pointer text-white">
+                    Mount Script
+                    <img class="h-10 inline rounded-full" src="/Mountscript/img/images.png" alt="">
+                </span>
+                <p class="text-white font-[Didact Gothic] mt-5 mr-3">© 2024 Mount Script. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="owl.js"></script>
+</body>
+</html>

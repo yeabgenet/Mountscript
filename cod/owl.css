@@ -1,0 +1,11 @@
+.owl-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.owl-nav button {
+    font-size: 2rem;
+    color: #6B46C1;
+    margin: 0 0.5rem;
+}
